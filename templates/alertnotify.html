@@ -1,0 +1,14 @@
+<html>
+<body>
+    <h1>Alerts for Vehicle ID {{ vehicle_id }}</h1>
+    <ul>
+        {% for alert in alerts %}
+            <li>
+                Alert ID: {{ alert.alert_id }}<br>
+                Timestamp: {{ alert.timestamp }}<br>
+                Location Type: {{ alert.location_type }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
