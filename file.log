@@ -1,0 +1,17 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:52:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:52:18] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:52:22] "[31m[1mGET /alerts/2?id=2&Continue=Submit HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:55:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:55:07] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:55:09] "[31m[1mGET /alerts/2?vehicle_id=2&Continue=Submit HTTP/1.1[0m" 400 -

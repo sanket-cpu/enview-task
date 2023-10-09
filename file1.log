@@ -1,0 +1,84 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:57:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:58:00] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 19:58:03] "[31m[1mGET /alerts/1?vehicle_id=1&Continue=Submit HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:00:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:00:15] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:00:17] "[31m[1mGET /alerts/1?vehicle_id=1&Continue=Submit HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:02:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:02:30] "POST /details HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:02:33] "[33mGET /alerts/?vehicle_id=1&Continue=Submit HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:03:45] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:03:47] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+WARNING:root:simulate_event_generation started
+WARNING:root:notify started
+WARNING:root:simulate_event_generation started
+WARNING:root:notify started
+WARNING:root:simulate_event_generation started
+WARNING:root:notify started
+WARNING:root:simulate_event_generation started
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:06:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:06:09] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:06:12] "[31m[1mGET /alerts/3?vehicle_id=3&submit=Submit HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:10:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:10:07] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:10:09] "[31m[1mGET /alerts/2?vehicle_id=2&submit1=Submit HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:20] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:36] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:37] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:38] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:42] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:42] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:42] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:11:42] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:13:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:13:25] "POST /details HTTP/1.1" 200 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:13:28] "[31m[1mGET /alerts/2?vehicle_id=2&submit1=Submit HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:14:03] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -
+WARNING:root:notify started
+INFO:werkzeug:127.0.0.1 - - [09/Oct/2023 20:14:26] "[31m[1mGET /alerts/2 HTTP/1.1[0m" 400 -

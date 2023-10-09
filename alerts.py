@@ -4,7 +4,9 @@ from event import events
 from itertools import count
 import random
 import time
+import logging as log
 
+log.basicConfig(filename="file1.log")
 from ruleengine import *
 # Use a counter to generate unique IDs
 alert_id_counter = count()
@@ -29,6 +31,7 @@ def generate_alert(vehicle_id, location_type):
 
 evt = []
 def simulate_event_generation(vehicle_id, duration_minutes):
+    log.warning("simulate_event_generation started")
     start_time = datetime.utcnow()
     generated_alerts = []  # Collect generated alerts here
 
@@ -49,7 +52,7 @@ def simulate_event_generation(vehicle_id, duration_minutes):
             generated_alerts.append(alert)  # Collect generated alerts
             time.sleep(15)
         
-
+    log.warning("simulate_event_generation ended")
    # print(generated_alerts)
     return generated_alerts 
 # Example location types (replace this with your location types)
@@ -62,4 +65,4 @@ alert_id_counter = count()
 vehicle_id = 1
 
 # Simulate event generation for 30 seconds
-simulate_event_generation(vehicle_id, 30 )
+#simulate_event_generation(vehicle_id, 30 )
